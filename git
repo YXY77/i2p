@@ -1,6 +1,6 @@
-Title: Getting to Grips with Git
-Author: Jon Reades
-Theme: casa notes
+Title: ##### Getting to Grips with Git
+Author: --Jon Reades--
+Theme: **casa notes**
 Palette: Purple
 Size: Wide
 ---
@@ -67,7 +67,7 @@ git init
 Or: `git clone https://github.com/jreades/i2p.git`
 
 ---
-### Working on a File
+### Working on a `File`
 
 | Term | Means |
 | :--- | :---- |
