@@ -77,13 +77,17 @@ Obviously, the use of personal data covers ethical issues, and it is crucial to 
 ---
 ### References
 
-[1]    K. Barron, E. Kung, and D. Proserpio, “The Sharing Economy and Housing Affordability: Evidence from Airbnb.”
+[1]    K. Barron, E. Kung, and D. Proserpio, “The Sharing Economy and Housing Affordability: Evidence from Airbnb,” SSRN Electron. J., 2018, doi: 10.2139/ssrn.3006832.
 
-[2]
 
-[3]
+[2]	   K. Crawford and M. Finn, “The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters,” GeoJournal, vol. 80, no.        4, 2015, doi: 10.1007/s10708-014-9597-z.
 
-[4]
 
-[5]
- 
+[3]	   S. Elwood and A. Leszczynski, “Feminist digital geographies,” Gender, Place Cult., vol. 25, no. 5, 2018, doi: 10.1080/0966369X.2018.1465396.
+
+
+[4]	   V. van den Bemt, J. Doornbos, L. Meijering, M. Plegt, and N. Theunissen, “Teaching ethics when working with geocoded data: a novel experiential learning approach,” J.            Geogr. High. Educ., vol. 42, no. 2, 2018, doi: 10.1080/03098265.2018.1436534.
+
+
+[5]    S. Elwood and M. Wilson, “Critical GIS pedagogies beyond ‘Week 10: Ethics,’” Int. J. Geogr. Inf. Sci., vol. 31, no. 10, 2017, doi: 10.1080/13658816.2017.1334892.
+
