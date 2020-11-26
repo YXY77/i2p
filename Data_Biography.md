@@ -1,12 +1,12 @@
 # Data Biography
 
-## Student Number: XXXXXXX
+## Student Number: 20058393
 
 ---
 
 ### 1. Who collected the data?
 
-_Your answer here_
+_Airbnb operators and managers (data analysts), or landlords who want to rent out their houses through the platform
 
 ---
 
