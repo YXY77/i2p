@@ -1,1 +1,57 @@
+## Box plots and scatter histograms
 
+import os
+import numpy as np
+import pandas as pd
+import geopandas as gpd
+import seaborn as sns
+
+import matplotlib.cm as cm
+import matplotlib.pyplot as plt
+
+df=pd.read_csv("202012.csv")
+
+df['price'] = df.price.str.replace('$','').str.replace(',','').astype(float)
+print(df.shape)
+
+sns.set_style('whitegrid')
+sns.set_theme(style="ticks", palette="pastel")
+f,ax = plt.subplots(figsize=(8,5))
+sns.boxplot(y=df.price,x=df.room_type)
+sns.despine(offset=10)
+ax.set_ylim([0,500])
+
+sns.jointplot(x="price" , y = "number_of_reviews_ltm" ,data = df)
+
+
+
+
+
+
+###  Heat map
+
+
+import os
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt 
+import re
+from sklearn.preprocessing import LabelEncoder
+
+df= pd.read_csv('202001.csv')
+df = df[['room_type', 'price','number_of_reviews_ltm','host_listings_count']]
+
+#transform 'room_type' to string
+df['room_type'] = df['room_type'].astype('string')
+
+#transform 'price' to float
+df['price'] = df['price'].apply(lambda x: re.sub(r'\$|,','',x)).astype('float64')
+
+label_encoder = LabelEncoder()
+df["room_type"] = label_encoder.fit_transform(df["room_type"].tolist())
+corr = df.corr()
+f, ax = plt.subplots(figsize=(8, 8)) 
+sns.heatmap(corr, annot=True, cmap="Blues", vmax=1.0, square=True, linewidths=.3, cbar_kws={"shrink": .5}, ax=ax) 
+plt.savefig('heatmap.jpg')
+plt.show()
